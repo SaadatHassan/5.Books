@@ -8,7 +8,7 @@ function App() {
   // for rendering only when app starts
   useEffect(() => {
     fetchBooks();
-  }, []);
+  }, [fetchBooks]);
 
   return (
     <>
